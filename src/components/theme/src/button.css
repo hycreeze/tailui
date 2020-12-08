@@ -1,0 +1,68 @@
+
+/*--- base start ---*/
+.tail-button {
+   @apply inline-flex items-center border border-transparent  rounded
+}
+/*--- base end ---*/
+
+.tail-button--large {
+    @apply px-4 py-2  leading-6  text-base font-medium
+}
+
+.tail-button--small {
+
+}
+
+.tail-button--medium {
+
+}
+
+.tail-button--mini {
+
+}
+
+/*--- colors start ---*/
+.tail-button--primary {
+
+}
+
+.tail-button--default {
+    @apply text-black border-gray-700 bg-white
+}
+
+.tail-button--success {
+
+}
+
+.tail-button--warming {
+
+}
+
+.tail-button--danger {
+    @apply text-white bg-red-600
+}
+.tail-button--danger:hover {
+    @apply bg-red-700
+}
+.tail-button--danger:active, .tail-button--danger:focus {
+    @applyg-red-700
+}
+
+.tail-button--info {
+
+}
+
+.tail-button--text {
+
+}
+
+/*--- colors end ---*/
+
+
+.is-loading {
+    @apply transition ease-in-out duration-150
+}
+
+.is-disabled {
+    @apply cursor-not-allowed
+}
