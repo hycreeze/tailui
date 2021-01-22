@@ -11,6 +11,8 @@
     "autoprefixer": "9",
     "core-js": "^3.6.5",
     "postcss": "7",
+    "svg-sprite-loader": "^5.2.1",
+    "svgo-loader": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue": "^3.0.0"
   },

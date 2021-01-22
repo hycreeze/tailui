@@ -265,12 +265,18 @@ const colors = {
     800: '#1e293b',
     900: '#0f172a',
   },
+  menu: {
+    'back': "#E0DFDE", // 背景色
+    'icon': "#5F5F5F", // 图标色
+    'font': "#1e1f1d",
+    'keyup': '#b3bac4',
+  }
 }
 
 module.exports = {
   purge: [],
   presets: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     screens: {
       sm: '640px',
@@ -282,7 +288,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
+      menu: colors.menu,
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -293,6 +299,8 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      blueGray: colors.blueGray,
+
     },
     spacing: {
       px: '1px',
@@ -382,6 +390,7 @@ module.exports = {
       '2xl': '1rem',
       '3xl': '1.5rem',
       full: '9999px',
+      3: '3px',
     },
     borderWidth: {
       DEFAULT: '1px',
